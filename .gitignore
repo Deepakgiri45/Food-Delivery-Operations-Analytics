@@ -1,0 +1,89 @@
+# Git Ignore File
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Data Files
+*.csv
+*.json
+data/raw/
+data/processed/
+data/staging/
+
+# Configuration
+.snowflake/
+credentials.json
+.aws/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Temporary Files
+*.tmp
+*.bak
+.temp/
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports & Outputs
+reports/
+outputs/
+
+# Documentation Build
+site/
+docs/_build/
